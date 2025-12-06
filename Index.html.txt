@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">Daniel Seethaler</div>
+    <nav>
+      <a href="#Start">Start</a>
+      <a href="#Krippe">Krippe</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+     </header>
+  <br>
+  <h2>Erklärung</h2>
+  <br>
+  <a>Auf dieser Website will ich den Bau meiner Weihnachtskrippe mit Bildern und kleinen Texten dokumentieren.</a>
+  <br>
+  <h2>Krippe</h2>
+  <br>
+  <h3>Baufortschritt 19.11</h3>
+  <a>Ich habe die Wände und die Unterkonstruktion soweit fertig gebaut...</a>
+  <button>
+    <a href="19.11.html">Weiterlesen</a>
+  </button>
+  <br>
+  <h3>Baufortschritt 3.12</h3>
+  <a>Ich habe begonnen die Wände zu verputzen...</a>
+  <button>
+    <a href="3.12.html">Weiterlesen</a>
+  </button>
+
+  <div class="kontakt-form">
+    <form action="https://formsubmit.co/dseethaler@msku1.at" method="POST">
+      <input type="text" name="name" placeholder="Dein Name" required>
+      <input type="email" name="email" placeholder="Deine E-Mail" required>
+      <textarea name="message" placeholder="Deine Nachricht" required></textarea>
+
+      <input type="hidden" name="_subject" value="Neue Kontaktanfrage von Webseite">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="thankyou.html">
+
+      <button type="submit">Absenden</button>
+    </form>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Daniel Seethaler. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
