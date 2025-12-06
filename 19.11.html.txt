@@ -1,0 +1,9 @@
+<h1>Baufortschritt 19.11</h1>
+<br>
+<a>Ich habe die Waende und die Unterkonstruktion soweit fertig gebaut,<br> das ich das naechste mal mit dem verputzen beginnen kann.</a>
+<br>
+<a>Ausserdem habe ich begonnen die Fenster und Tuerstoecke einzubauen.</a>
+<br>
+<button>
+  <a href="index.html">Zur Startseite</a>
+</button>
